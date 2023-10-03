@@ -14,6 +14,8 @@
 		7300C4D32ACCA76100D4F9E6 /* CircularShapeAnimationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7300C4D22ACCA76100D4F9E6 /* CircularShapeAnimationAppTests.swift */; };
 		7300C4DD2ACCA76100D4F9E6 /* CircularShapeAnimationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7300C4DC2ACCA76100D4F9E6 /* CircularShapeAnimationAppUITests.swift */; };
 		7300C4DF2ACCA76100D4F9E6 /* CircularShapeAnimationAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7300C4DE2ACCA76100D4F9E6 /* CircularShapeAnimationAppUITestsLaunchTests.swift */; };
+		7300C4EC2ACCA78C00D4F9E6 /* CircularShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7300C4EB2ACCA78C00D4F9E6 /* CircularShape.swift */; };
+		7300C4EE2ACCB35400D4F9E6 /* Circular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7300C4ED2ACCB35400D4F9E6 /* Circular.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		7300C4D82ACCA76100D4F9E6 /* CircularShapeAnimationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularShapeAnimationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7300C4DC2ACCA76100D4F9E6 /* CircularShapeAnimationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapeAnimationAppUITests.swift; sourceTree = "<group>"; };
 		7300C4DE2ACCA76100D4F9E6 /* CircularShapeAnimationAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapeAnimationAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7300C4EB2ACCA78C00D4F9E6 /* CircularShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShape.swift; sourceTree = "<group>"; };
+		7300C4ED2ACCB35400D4F9E6 /* Circular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				7300C4C32ACCA76000D4F9E6 /* ContentView.swift */,
 				7300C4C52ACCA76100D4F9E6 /* Assets.xcassets */,
 				7300C4C72ACCA76100D4F9E6 /* Preview Content */,
+				7300C4EB2ACCA78C00D4F9E6 /* CircularShape.swift */,
+				7300C4ED2ACCB35400D4F9E6 /* Circular.swift */,
 			);
 			path = CircularShapeAnimationApp;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7300C4EC2ACCA78C00D4F9E6 /* CircularShape.swift in Sources */,
 				7300C4C42ACCA76000D4F9E6 /* ContentView.swift in Sources */,
+				7300C4EE2ACCB35400D4F9E6 /* Circular.swift in Sources */,
 				7300C4C22ACCA76000D4F9E6 /* CircularShapeAnimationAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
